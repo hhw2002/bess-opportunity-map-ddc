@@ -227,8 +227,8 @@ uv is missing they stop with these instructions.
 `.venv`, see [Troubleshooting](#troubleshooting)):
 
 ```bash
-git clone <repository-url> bess-catalonia
-cd bess-catalonia
+git clone https://github.com/yainge/bess-opportunity-map-ddc.git
+cd bess-opportunity-map-ddc
 ```
 
 **3. Initialise the environment** — creates `.venv` from `uv.lock` (uv downloads Python 3.12

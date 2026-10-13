@@ -21,7 +21,7 @@ def test_environment_files():
     assert py["project"]["requires-python"].startswith(">=3.12")
     assert py["project"]["version"] == bess_catalonia.__version__
     assert (REPO / ".python-version").read_text().strip() == "3.12"
-    assert 'name = "bess-catalonia"' in (REPO / "uv.lock").read_text()
+    assert 'name = "bess-opportunity-map-ddc"' in (REPO / "uv.lock").read_text()
     for script in ("start.sh", "start.ps1"):
         text = (REPO / script).read_text()
         assert "sync" in text and "--locked" in text and "bess_catalonia" in text

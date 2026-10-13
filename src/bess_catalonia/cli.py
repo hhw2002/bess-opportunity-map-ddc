@@ -53,13 +53,13 @@ def build_parser() -> argparse.ArgumentParser:
                    help="print the execution plan without running or writing anything")
     p.add_argument("--force", action="store_true", help="re-run stages even if up to date")
     p.add_argument("--log-level", default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"])
-    p.add_argument("--version", action="version", version=f"bess-catalonia {__version__}")
+    p.add_argument("--version", action="version", version=f"bess-opportunity-map-ddc {__version__}")
     return p
 
 
 def cmd_setup() -> int:
     cfg = load_config()
-    print(f"bess-catalonia {__version__} | Python {platform.python_version()} | {sys.prefix}")
+    print(f"bess-opportunity-map-ddc {__version__} | Python {platform.python_version()} | {sys.prefix}")
     missing = []
     for mod in ("pandas", "numpy", "geopandas", "shapely", "pyproj", "pyogrio", "matplotlib",
                 "yaml", "pyarrow"):

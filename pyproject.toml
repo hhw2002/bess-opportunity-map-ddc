@@ -1,5 +1,5 @@
 [project]
-name = "bess-catalonia"
+name = "bess-opportunity-map-ddc"
 version = "0.1.0"
 description = "GIS opportunity-screening framework for grid-scale BESS in Catalonia (UPC Data-Driven Challenges 2026-27)"
 readme = "README.md"
@@ -18,7 +18,7 @@ dependencies = [
 ]
 
 [project.scripts]
-bess-catalonia = "bess_catalonia.cli:main"
+bess-opportunity-map-ddc = "bess_catalonia.cli:main"
 
 [dependency-groups]
 dev = [

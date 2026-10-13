@@ -7,8 +7,11 @@ All notable changes to this project are documented here. Format:
 
 ## [Unreleased]
 
-### Added
-- _Nothing yet._
+### Changed
+- Project (distribution) and virtual-environment prompt renamed from `bess-catalonia` to
+  `bess-opportunity-map-ddc` to match the repository; the Python import package stays
+  `bess_catalonia`.
+- README clone instructions point to the GitHub repository.
 
 ## [0.1.0] - 2026-10-08
 
