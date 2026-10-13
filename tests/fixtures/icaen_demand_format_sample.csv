@@ -1,0 +1,7 @@
+"Any","Provincia","Comarca","CDMUN","Municipi","Codi_Sector","Descripcio_Sector","Consum [kWh]","Observacions"
+"2024","DEMO","DEMO","8001","FICTIONAL A","1","PRIMARI","237.755",
+"2024","DEMO","DEMO","8001","FICTIONAL A","3","INDUSTRIAL","66.604.371",
+"2024","DEMO","DEMO","8001","FICTIONAL A","5","TRANSPORT",,"Dada subjecta a secret estadístic"
+"2023","DEMO","DEMO","8001","FICTIONAL A","3","INDUSTRIAL","60.000.000",
+"2024","DEMO","DEMO","25002","FICTIONAL B","6","SERVEIS","1.000",
+"2024","DEMO","DEMO","25002","FICTIONAL B","7","USOS DOMESTICS","2.500","Inclou el consum del sector energètic"

@@ -1,0 +1,39 @@
+# GIS / land-feasibility configuration (owner: Yuki). Distances in km, areas reported in ha.
+
+buffers_km: [5, 10, 20]
+
+# Land cover: polygons whose class is listed here count as physically suitable land.
+land_cover:
+  dataset: gis_land_cover
+  class_column: land_class
+  suitable_classes: [agricultural_dryland, grassland_scrub, bare_industrial]
+
+# Constraint layers.
+#   role: hard -> area is removed from suitable land (exclusion)
+#   role: soft -> only reported as a share of the buffer (preference, may enter scoring)
+# class_column/classes (optional) restrict a layer to some of its feature classes.
+constraints:
+  protected_area:          # -> protected_area_share_<r>km, protected_area_conflict
+    dataset: gis_protected_areas
+    role: hard
+  flood_zone:              # -> flood_zone_share_<r>km, flood_risk_at_node
+    dataset: gis_flood_zones
+    role: hard
+  zoning_excluded:
+    dataset: gis_zoning
+    role: hard
+    class_column: zone_class
+    classes: [urban_residential, urban_core]
+
+# A node is flagged protected_area_conflict when a protected area lies within this distance.
+protected_conflict_distance_m: 1000
+
+accessibility:
+  dataset: gis_roads
+  class_column: road_class
+  major_classes: [motorway, primary]
+
+# Municipal boundaries are used to place municipal demand in space (centroid method).
+municipalities:
+  dataset: gis_municipalities
+  code_column: municipality_code

@@ -1,0 +1,30 @@
+# Environment
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Raw and processed real data are shared via the team drive, not git
+data/raw/*/
+data/interim/**
+!data/interim/README.md
+data/processed/**
+!data/processed/README.md
+
+# Generated results and logs (reproducible)
+results/demo/**
+results/real/**
+!results/demo/README.md
+!results/real/README.md
+logs/**
+!logs/README.md
+
+# Atomic-write temporaries
+.*.tmp*
+.DS_Store
+
+# Synthetic demo inputs are regenerated deterministically on the first demo run
+data/sample/**
+!data/sample/README.md

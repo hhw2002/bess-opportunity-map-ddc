@@ -1,0 +1,280 @@
+# Dataset registry: where each input lives, how to read it, how its columns map onto the
+# canonical schema (docs/data_contract.md) and its provenance metadata.
+#
+# Paths are relative to the mode's raw_root (config/project.yaml):
+#   demo -> data/sample   (synthetic, generated automatically)
+#   real -> data/raw      (official source files, immutable, not committed to git)
+#
+# `columns` maps SOURCE column name -> CANONICAL column name.
+# A real dataset with `path: null` is "not yet delivered"; its stage is skipped during
+# `--all` (if optional) and reported. Never point a real entry at synthetic data.
+#
+# Provenance fields (metadata): dataset_id, dataset_name, provider, source_url,
+# publication_date, retrieval_date, observation_period, version, spatial_resolution,
+# temporal_resolution, known_limitations, verification_status
+# (verified | to_verify | investigating). See docs/dataset_inventory.md.
+
+demo:
+  grid_nodes:
+    domain: grid
+    owner: Polo
+    path: grid/grid_nodes_synthetic.csv
+    format: csv
+    source_crs: EPSG:4326
+    columns:
+      node_code: source_node_id
+      name: node_name
+      operator: operator
+      level: network_level
+      kv: voltage_kv
+      lon: x
+      lat: y
+      gen_access_mw: generation_available_mw
+      dem_access_mw: demand_available_mw
+      gen_capacity_date: generation_capacity_date
+      dem_capacity_date: demand_capacity_date
+    units: {generation_available_mw: MW, demand_available_mw: MW}
+    metadata: &synthetic
+      provider: SYNTHETIC - bess_catalonia.demo (fictional data, not a real measurement)
+      source_url: null
+      publication_date: null
+      retrieval_date: null
+      version: demo-seed-42
+      verification_status: synthetic
+      known_limitations: Fictional values generated to test the software only.
+
+  demand_municipal:
+    domain: demand
+    owner: Fernando
+    path: demand/municipal_consumption_synthetic.csv
+    format: csv
+    read_options: {dtype: str, encoding: utf-8}
+    number_format: {thousands: ".", decimal: ","}
+    columns: &icaen_demand_columns
+      Any: year
+      Provincia: province
+      Comarca: comarca
+      CDMUN: municipality_code
+      Municipi: municipality_name
+      Codi_Sector: sector_code
+      Descripcio_Sector: sector_name
+      "Consum [kWh]": consumption_mwh
+      Observacions: source_note
+    units: {consumption_mwh: kWh}
+    options: &icaen_demand_options
+      industrial_sector_codes: ["3"]
+      suppressed_note_contains: "secret estad"
+    metadata: *synthetic
+
+  congestion_erni:
+    domain: congestion
+    owner: Hsiang Wei
+    path: congestion/erni_monthly_synthetic.csv
+    format: csv
+    columns:
+      erni_node_id: source_node_id
+      erni_node_name: source_node_name
+      month: period_start
+      erni_mwh: erni_mwh
+      level: network_level
+    units: {erni_mwh: MWh}
+    metadata: *synthetic
+
+  congestion_crosswalk:
+    domain: congestion
+    owner: Hsiang Wei
+    path: congestion/node_crosswalk_synthetic.csv
+    format: csv
+    columns:
+      congestion_source_node_id: congestion_source_node_id
+      grid_source_node_id: grid_source_node_id
+      note: note
+    metadata: *synthetic
+
+  renewables_installations:
+    domain: renewables
+    owner: Isabella
+    path: renewables/installations_synthetic.csv
+    format: csv
+    source_crs: EPSG:25831
+    columns:
+      id: source_installation_id
+      nom: installation_name
+      tecnologia: technology
+      potencia_kw: capacity_mw
+      estat: status
+      utm_x: x
+      utm_y: y
+    units: {capacity_mw: kW}
+    options:
+      status_map:
+        "En servei": operating
+        "Autoritzat": pipeline
+        "En tramitació": pipeline
+    metadata: *synthetic
+
+  gis_land_cover:
+    domain: gis
+    owner: Yuki
+    path: gis/gis_layers_synthetic.gpkg
+    format: gpkg
+    layer: land_cover
+    metadata: *synthetic
+  gis_protected_areas:
+    domain: gis
+    owner: Yuki
+    path: gis/gis_layers_synthetic.gpkg
+    format: gpkg
+    layer: protected_areas
+    metadata: *synthetic
+  gis_flood_zones:
+    domain: gis
+    owner: Yuki
+    path: gis/gis_layers_synthetic.gpkg
+    format: gpkg
+    layer: flood_zones
+    metadata: *synthetic
+  gis_zoning:
+    domain: gis
+    owner: Yuki
+    path: gis/gis_layers_synthetic.gpkg
+    format: gpkg
+    layer: zoning
+    metadata: *synthetic
+  gis_roads:
+    domain: gis
+    owner: Yuki
+    path: gis/gis_layers_synthetic.gpkg
+    format: gpkg
+    layer: roads
+    metadata: *synthetic
+  gis_municipalities:
+    domain: gis
+    owner: Yuki
+    path: gis/gis_layers_synthetic.gpkg
+    format: gpkg
+    layer: municipalities
+    metadata: *synthetic
+
+real:
+  grid_nodes:
+    domain: grid
+    owner: Polo
+    path: null            # e.g. grid/ree_access_capacity_YYYY-MM.csv once delivered
+    format: csv
+    source_crs: null      # set to the CRS of the coordinate columns (e.g. EPSG:4326)
+    columns: {}           # map source columns -> canonical (see data_contract.md#grid)
+    metadata:
+      dataset_name: Grid access capacity (transmission + distribution)
+      provider: REE (transmission); e-distribución (distribution)
+      source_url: null
+      publication_date: null
+      retrieval_date: null
+      verification_status: investigating
+
+  demand_municipal:
+    domain: demand
+    owner: Fernando
+    path: demand/icaen_municipal_electricity_consumption.csv
+    format: csv
+    read_options: {dtype: str, encoding: utf-8}
+    number_format: {thousands: ".", decimal: ","}
+    columns: *icaen_demand_columns
+    units: {consumption_mwh: kWh}
+    options: *icaen_demand_options
+    metadata:
+      dataset_id: demand_icaen_municipal_sector
+      dataset_name: Electricity consumption by municipality and sector, Catalonia
+      provider: >-
+        Believed to be ICAEN (Institut Català d'Energia) via Dades Obertes de Catalunya -
+        TO VERIFY (column layout matches; original download page not yet recorded)
+      source_url: null
+      publication_date: null
+      retrieval_date: "2026-09-17"   # file timestamp of the local download (export.csv)
+      observation_period: 2013-2024 (annual)
+      spatial_resolution: municipality (947 municipalities)
+      temporal_resolution: annual
+      known_limitations: >-
+        Annual municipal totals, not nodal hourly load. Some sector values are suppressed
+        ("Dada subjecta a secret estadístic") so municipal totals are lower bounds.
+      verification_status: to_verify
+
+  congestion_erni:
+    domain: congestion
+    owner: Hsiang Wei
+    path: null
+    format: csv
+    columns: {}
+    units: {erni_mwh: MWh}
+    metadata:
+      dataset_name: Non-integrated renewable energy (ERNI) / curtailment
+      provider: REE / ESIOS
+      verification_status: investigating
+  congestion_crosswalk:
+    domain: congestion
+    owner: Hsiang Wei
+    path: null
+    format: csv
+    columns: {}
+    metadata:
+      dataset_name: Manual crosswalk ERNI node -> grid node
+      provider: project team (manual, reviewed)
+      verification_status: investigating
+
+  renewables_installations:
+    domain: renewables
+    owner: Isabella
+    path: null
+    format: csv
+    source_crs: null
+    columns: {}
+    units: {capacity_mw: MW}
+    options:
+      status_map: {}
+    metadata:
+      dataset_name: Existing and planned renewable installations
+      provider: Generalitat de Catalunya (ICAEN, environmental viewer)
+      verification_status: investigating
+
+  gis_land_cover:
+    domain: gis
+    owner: Yuki
+    path: null
+    format: gpkg
+    layer: null
+    metadata: {dataset_name: Land cover map, provider: ICGC, verification_status: investigating}
+  gis_protected_areas:
+    domain: gis
+    owner: Yuki
+    path: null
+    format: gpkg
+    layer: null
+    metadata: {dataset_name: Protected areas (Natura 2000, PEIN), provider: Generalitat de Catalunya / MITECO, verification_status: investigating}
+  gis_flood_zones:
+    domain: gis
+    owner: Yuki
+    path: null
+    format: gpkg
+    layer: null
+    metadata: {dataset_name: Flood zones, provider: Agència Catalana de l'Aigua, verification_status: investigating}
+  gis_zoning:
+    domain: gis
+    owner: Yuki
+    path: null
+    format: gpkg
+    layer: null
+    metadata: {dataset_name: Mapa Urbanístic de Catalunya (MUC), provider: Generalitat de Catalunya, verification_status: investigating}
+  gis_roads:
+    domain: gis
+    owner: Yuki
+    path: null
+    format: gpkg
+    layer: null
+    metadata: {dataset_name: Road network, provider: Generalitat de Catalunya / ICGC, verification_status: investigating}
+  gis_municipalities:
+    domain: gis
+    owner: Yuki
+    path: null
+    format: gpkg
+    layer: null
+    metadata: {dataset_name: Municipal boundaries, provider: ICGC, verification_status: investigating}

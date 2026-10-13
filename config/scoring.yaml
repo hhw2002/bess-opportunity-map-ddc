@@ -1,0 +1,53 @@
+# Preliminary scoring configuration.
+#
+# STATUS: ILLUSTRATIVE. Weights, directions and policies below are placeholders chosen to
+# exercise the software. They are NOT scientifically validated and must be revised after
+# exploratory analysis of the real data (see docs/methodology.md).
+status: illustrative
+
+# direction:      higher_better | lower_better
+# normalization:  minmax | percentile
+# missing:        reweight -> indicator dropped for that node, remaining weights renormalised
+#                 worst    -> missing value receives the worst normalised score (0)
+#                 exclude  -> node is not ranked in scenarios that use this indicator
+indicators:
+  bess_headroom_proxy_mw:     {direction: higher_better, normalization: minmax, missing: worst}
+  generation_available_mw:    {direction: higher_better, normalization: minmax, missing: worst}
+  demand_available_mw:        {direction: higher_better, normalization: minmax, missing: worst}
+  erni_12m_gwh:               {direction: higher_better, normalization: minmax, missing: reweight}
+  renewable_mw_10km:          {direction: higher_better, normalization: minmax, missing: reweight}
+  renewable_pipeline_mw_10km: {direction: higher_better, normalization: minmax, missing: reweight}
+  nearby_demand_mwh_10km:     {direction: higher_better, normalization: minmax, missing: reweight}
+  suitable_land_ha_5km:       {direction: higher_better, normalization: minmax, missing: reweight}
+  distance_to_major_road_km:  {direction: lower_better,  normalization: minmax, missing: reweight}
+
+# Nodes with less than this share of the scenario weight available are left unranked.
+min_weight_coverage: 0.5
+
+# Hard screening filters applied before ranking (boolean columns; true = excluded).
+exclude_if_true: [protected_area_conflict]
+
+scenarios:
+  renewable_absorption:
+    description: Where could storage absorb renewable output that is currently curtailed?
+    weights:
+      erni_12m_gwh: 0.35
+      renewable_mw_10km: 0.20
+      renewable_pipeline_mw_10km: 0.15
+      generation_available_mw: 0.15
+      suitable_land_ha_5km: 0.15
+  connection_readiness:
+    description: Where does grid access and land availability look easiest to develop?
+    weights:
+      bess_headroom_proxy_mw: 0.40
+      suitable_land_ha_5km: 0.30
+      distance_to_major_road_km: 0.20
+      erni_12m_gwh: 0.10
+  load_grid_support:
+    description: Where could storage support demand and local grid stability?
+    weights:
+      nearby_demand_mwh_10km: 0.35
+      demand_available_mw: 0.25
+      erni_12m_gwh: 0.15
+      bess_headroom_proxy_mw: 0.15
+      suitable_land_ha_5km: 0.10
