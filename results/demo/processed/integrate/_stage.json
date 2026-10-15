@@ -1,0 +1,25 @@
+{
+  "stage": "integrate",
+  "mode": "demo",
+  "run_id": "20261013T192148Z-7caf31",
+  "finished_at": "2026-10-13T19:21:48+00:00",
+  "fingerprint": "9beab2c44542c538",
+  "upstream_runs": {
+    "grid": "20261013T192148Z-7caf31",
+    "demand": "20261013T192148Z-7caf31",
+    "congestion": "20261013T192148Z-7caf31",
+    "renewables": "20261013T192148Z-7caf31",
+    "gis": "20261013T192148Z-7caf31"
+  },
+  "outputs": [
+    "results/demo/quality/quality_integrated_nodes.json",
+    "results/demo/quality/quality_integrated_nodes.md",
+    "results/demo/processed/integrate/nodes_integrated.gpkg",
+    "results/demo/processed/integrate/nodes_integrated.csv",
+    "results/demo/processed/integrate/nodes_integrated.parquet"
+  ],
+  "record_counts": {
+    "nodes": 24,
+    "columns": 42
+  }
+}

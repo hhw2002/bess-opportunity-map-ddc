@@ -1,0 +1,47 @@
+{
+  "dataset": "demand_municipal",
+  "stage": "demand",
+  "mode": "demo",
+  "issues": [
+    {
+      "level": "info",
+      "check": "required_columns",
+      "message": "All required columns present",
+      "count": null,
+      "examples": []
+    },
+    {
+      "level": "info",
+      "check": "units",
+      "message": "consumption_mwh: converted from kWh to canonical unit",
+      "count": null,
+      "examples": []
+    },
+    {
+      "level": "info",
+      "check": "resolution",
+      "message": "Annual municipal totals - not nodal / hourly load",
+      "count": null,
+      "examples": []
+    }
+  ],
+  "metrics": {
+    "source_file": "municipal_consumption_synthetic.csv",
+    "source_rows": 660,
+    "records": 660,
+    "municipalities": 55,
+    "years": "2023-2024",
+    "suppressed_values": 62
+  },
+  "completeness": {
+    "year": 1.0,
+    "province": 1.0,
+    "comarca": 1.0,
+    "municipality_code": 1.0,
+    "municipality_name": 1.0,
+    "sector_code": 1.0,
+    "sector_name": 1.0,
+    "consumption_mwh": 0.9061,
+    "source_note": 0.0939
+  }
+}

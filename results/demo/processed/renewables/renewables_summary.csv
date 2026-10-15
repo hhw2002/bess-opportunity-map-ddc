@@ -1,0 +1,11 @@
+status_category,technology,installations,capacity_mw
+operating,biomass,5,42.278
+operating,hydro,7,71.118
+operating,solar_pv,85,2247.771
+operating,wind,31,1200.673
+pipeline,biomass,4,32.051
+pipeline,hydro,2,12.896
+pipeline,solar_pv,44,1203.403
+pipeline,wind,16,640.51
+unknown,solar_pv,1,27.403000000000002
+unknown,wind,1,59.704

@@ -1,0 +1,55 @@
+{
+  "dataset": "congestion_node_matching",
+  "stage": "congestion",
+  "mode": "demo",
+  "issues": [
+    {
+      "level": "warning",
+      "check": "ambiguous",
+      "message": "Ambiguous source nodes NOT merged - add crosswalk entries",
+      "count": 1,
+      "examples": [
+        "DEMO CEDAR -> EDIS-SYN_D109;REE-SYN_T03"
+      ]
+    },
+    {
+      "level": "warning",
+      "check": "unmatched",
+      "message": "Source nodes without a grid node",
+      "count": 2,
+      "examples": [
+        "DEMO LINDEN DISTRIBUCIO",
+        "DEMO NOWHERE"
+      ]
+    },
+    {
+      "level": "warning",
+      "check": "crosswalk",
+      "message": "Crosswalk points to grid ids that do not exist",
+      "count": 1,
+      "examples": []
+    },
+    {
+      "level": "warning",
+      "check": "coverage",
+      "message": "Nodes with < 12 observed months in the window",
+      "count": 3,
+      "examples": [
+        "EDIS-SYN_D107",
+        "EDIS-SYN_D110",
+        "REE-SYN_T04"
+      ]
+    }
+  ],
+  "metrics": {
+    "crosswalk_entries": 8,
+    "source_nodes_matched": 11,
+    "source_nodes_ambiguous": 1,
+    "source_nodes_unmatched": 2,
+    "matched_by_crosswalk": 7,
+    "matched_by_name": 3,
+    "matched_by_source_id": 1,
+    "erni_window": "2025-07 to 2026-06"
+  },
+  "completeness": {}
+}

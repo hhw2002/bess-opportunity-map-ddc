@@ -1,0 +1,25 @@
+{
+  "stage": "congestion",
+  "mode": "demo",
+  "run_id": "20261013T192148Z-7caf31",
+  "finished_at": "2026-10-13T19:21:48+00:00",
+  "fingerprint": "8db08146832de84c",
+  "upstream_runs": {
+    "grid": "20261013T192148Z-7caf31"
+  },
+  "outputs": [
+    "results/demo/quality/quality_congestion_erni.json",
+    "results/demo/quality/quality_congestion_erni.md",
+    "results/demo/quality/quality_congestion_node_matching.json",
+    "results/demo/quality/quality_congestion_node_matching.md",
+    "results/demo/processed/congestion/congestion_records.csv",
+    "results/demo/processed/congestion/node_matching.csv",
+    "results/demo/processed/congestion/congestion_node_summary.csv"
+  ],
+  "record_counts": {
+    "records": 240,
+    "source_nodes": 14,
+    "matched": 11,
+    "nodes_with_erni": 11
+  }
+}

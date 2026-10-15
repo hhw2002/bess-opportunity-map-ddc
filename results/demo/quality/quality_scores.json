@@ -1,0 +1,23 @@
+{
+  "dataset": "scores",
+  "stage": "score",
+  "mode": "demo",
+  "issues": [
+    {
+      "level": "warning",
+      "check": "illustrative",
+      "message": "Scoring status 'illustrative': weights are placeholders, not validated - do not interpret rankings as findings",
+      "count": null,
+      "examples": []
+    }
+  ],
+  "metrics": {
+    "connection_readiness_ranked": 23,
+    "connection_readiness_unranked": 1,
+    "load_grid_support_ranked": 23,
+    "load_grid_support_unranked": 1,
+    "renewable_absorption_ranked": 23,
+    "renewable_absorption_unranked": 1
+  },
+  "completeness": {}
+}

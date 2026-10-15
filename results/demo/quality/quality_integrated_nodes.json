@@ -1,0 +1,62 @@
+{
+  "dataset": "integrated_nodes",
+  "stage": "integrate",
+  "mode": "demo",
+  "issues": [
+    {
+      "level": "info",
+      "check": "renewables",
+      "message": "Capacity summed within 10.0 km; overlapping catchments count an installation for every node in range",
+      "count": null,
+      "examples": []
+    },
+    {
+      "level": "warning",
+      "check": "demand_match",
+      "message": "Municipalities without demand data",
+      "count": 2,
+      "examples": []
+    },
+    {
+      "level": "warning",
+      "check": "demand_match",
+      "message": "Demand rows without a municipal boundary",
+      "count": 1,
+      "examples": [
+        "99099"
+      ]
+    },
+    {
+      "level": "info",
+      "check": "demand",
+      "message": "Municipal annual demand allocated by buffer area share (proxy; lower bound where sectors are suppressed or data is missing)",
+      "count": null,
+      "examples": []
+    }
+  ],
+  "metrics": {
+    "grid_nodes": 24,
+    "congestion_nodes_joined": 11,
+    "erni_source_nodes_matched": 11,
+    "erni_source_nodes_unmatched": 2,
+    "erni_source_nodes_ambiguous": 1,
+    "renewable_installations_used": 196,
+    "gis_municipalities_source_crs": "EPSG:25831",
+    "demand_year": "2024",
+    "gis_nodes_joined": 24,
+    "domains_included": "grid,congestion,renewables,demand,gis",
+    "milestone": "M3: grid + ERNI + renewables + demand + land feasibility",
+    "upstream_runs": "grid=20261013T192148Z-7caf31, congestion=20261013T192148Z-7caf31, renewables=20261013T192148Z-7caf31, demand=20261013T192148Z-7caf31, gis=20261013T192148Z-7caf31"
+  },
+  "completeness": {
+    "bess_headroom_proxy_mw": 0.7083,
+    "generation_available_mw": 0.875,
+    "demand_available_mw": 0.875,
+    "erni_12m_gwh": 0.4583,
+    "renewable_mw_10km": 1.0,
+    "renewable_pipeline_mw_10km": 1.0,
+    "nearby_demand_mwh_10km": 1.0,
+    "suitable_land_ha_5km": 1.0,
+    "distance_to_major_road_km": 1.0
+  }
+}

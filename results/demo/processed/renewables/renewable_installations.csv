@@ -1,0 +1,201 @@
+source_installation_id,installation_name,technology,capacity_mw,status,status_category,coord_valid,duplicate_source_id,lon,lat
+SYN-RE-0000,DEMO plant 0,wind,21.259,En servei,operating,True,False,1.831286,42.325891
+SYN-RE-0001,DEMO plant 1,solar_pv,32.758,En servei,operating,True,False,2.137513,42.028486
+SYN-RE-0002,DEMO plant 2,solar_pv,43.635,En tramitació,pipeline,True,False,1.565213,41.732478
+SYN-RE-0003,DEMO plant 3,solar_pv,31.895,Autoritzat,pipeline,True,False,1.713461,41.474536
+SYN-RE-0004,DEMO plant 4,solar_pv,21.737000000000002,En servei,operating,True,False,1.737363,41.427821
+SYN-RE-0005,DEMO plant 5,wind,54.495000000000005,En tramitació,pipeline,False,False,,
+SYN-RE-0006,DEMO plant 6,solar_pv,2.277,En servei,operating,True,False,2.128178,41.775278
+SYN-RE-0007,DEMO plant 7,solar_pv,26.963,En tramitació,pipeline,True,False,1.059966,41.481138
+SYN-RE-0008,DEMO plant 8,solar_pv,49.68,En servei,operating,True,False,2.212262,41.451079
+SYN-RE-0009,DEMO plant 9,solar_pv,,Autoritzat,pipeline,True,False,1.926426,42.166728
+SYN-RE-0010,DEMO plant 10,wind,56.94,En tramitació,pipeline,True,False,1.581893,41.553694
+SYN-RE-0011,DEMO plant 11,solar_pv,35.437,En servei,operating,True,False,0.865946,42.038497
+SYN-RE-0012,DEMO plant 12,biomass,10.605,Autoritzat,pipeline,True,False,1.451049,41.565285
+SYN-RE-0013,DEMO plant 13,solar_pv,45.198,En tramitació,pipeline,True,False,1.393247,41.533912
+SYN-RE-0014,DEMO plant 14,wind,18.490000000000002,En servei,operating,True,False,1.629666,41.622544
+SYN-RE-0015,DEMO plant 15,solar_pv,46.826,En servei,operating,True,False,2.355548,41.473919
+SYN-RE-0016,DEMO plant 16,solar_pv,41.955,Autoritzat,pipeline,True,False,1.400321,42.186728
+SYN-RE-0017,DEMO plant 17,wind,57.465,En servei,operating,True,False,2.231219,41.974504
+SYN-RE-0018,DEMO plant 18,biomass,10.645,En servei,operating,True,False,2.286959,41.633216
+SYN-RE-0019,DEMO plant 19,wind,51.706,En servei,operating,True,False,1.024995,41.632237
+SYN-RE-0020,DEMO plant 20,solar_pv,8.21,Autoritzat,pipeline,True,False,1.903381,41.386705
+SYN-RE-0021,DEMO plant 21,solar_pv,26.977,En servei,operating,True,False,2.206038,41.873542
+SYN-RE-0022,DEMO plant 22,wind,18.773,En servei,operating,True,False,1.02447,41.639413
+SYN-RE-0023,DEMO plant 23,solar_pv,28.589000000000002,Autoritzat,pipeline,True,False,1.521259,41.455654
+SYN-RE-0024,DEMO plant 24,wind,23.236,En servei,operating,True,False,1.512751,41.503783
+SYN-RE-0025,DEMO plant 25,solar_pv,22.528,Autoritzat,pipeline,True,False,1.003538,41.630045
+SYN-RE-0026,DEMO plant 26,solar_pv,3.624,En servei,operating,True,False,0.805868,41.38467
+SYN-RE-0027,DEMO plant 27,wind,43.885,En tramitació,pipeline,True,False,2.066943,41.780193
+SYN-RE-0028,DEMO plant 28,wind,50.724000000000004,Autoritzat,pipeline,True,False,1.939902,42.052681
+SYN-RE-0029,DEMO plant 29,solar_pv,9.873,En servei,operating,True,False,1.901667,42.329742
+SYN-RE-0030,DEMO plant 30,solar_pv,14.659,En tramitació,pipeline,True,False,1.475246,41.783467
+SYN-RE-0031,DEMO plant 31,wind,,En servei,operating,True,False,2.297823,41.594731
+SYN-RE-0032,DEMO plant 32,solar_pv,5.167,En servei,operating,True,False,1.222198,41.970617
+SYN-RE-0033,DEMO plant 33,solar_pv,43.432,En servei,operating,True,False,1.337968,42.123839
+SYN-RE-0034,DEMO plant 34,solar_pv,35.538000000000004,Autoritzat,pipeline,True,False,1.075188,41.666525
+SYN-RE-0035,DEMO plant 35,wind,22.652,En servei,operating,True,False,1.356158,41.72593
+SYN-RE-0036,DEMO plant 36,wind,48.79,En servei,operating,True,False,1.369969,41.723864
+SYN-RE-0037,DEMO plant 37,solar_pv,42.187,En servei,operating,True,False,1.238792,42.169996
+SYN-RE-0038,DEMO plant 38,solar_pv,47.197,En servei,operating,True,False,2.202023,41.587105
+SYN-RE-0039,DEMO plant 39,solar_pv,6.783,En servei,operating,True,False,2.178483,41.532652
+SYN-RE-0040,DEMO plant 40,solar_pv,39.892,En servei,operating,True,False,1.970311,42.039656
+SYN-RE-0041,DEMO plant 41,solar_pv,27.511,En servei,operating,True,False,1.783136,41.473813
+SYN-RE-0042,DEMO plant 42,solar_pv,27.403000000000002,Desconegut,unknown,True,False,1.783099,41.366045
+SYN-RE-0043,DEMO plant 43,wind,59.704,Desconegut,unknown,True,False,2.302461,41.622444
+SYN-RE-0044,DEMO plant 44,solar_pv,48.604,En servei,operating,True,False,2.024207,42.099977
+SYN-RE-0045,DEMO plant 45,solar_pv,35.389,Autoritzat,pipeline,True,False,0.979137,41.651775
+SYN-RE-0046,DEMO plant 46,solar_pv,24.405,En servei,operating,True,False,1.336923,42.145918
+SYN-RE-0047,DEMO plant 47,wind,50.497,En servei,operating,True,False,1.485643,41.607668
+SYN-RE-0048,DEMO plant 48,wind,14.452,En servei,operating,True,False,2.282713,42.018883
+SYN-RE-0049,DEMO plant 49,solar_pv,18.399,En servei,operating,True,False,1.982807,41.776951
+SYN-RE-0050,DEMO plant 50,wind,47.354,En servei,operating,True,False,1.98508,42.254473
+SYN-RE-0051,DEMO plant 51,solar_pv,4.9430000000000005,Autoritzat,pipeline,True,False,1.264361,42.157734
+SYN-RE-0052,DEMO plant 52,solar_pv,4.333,En servei,operating,True,False,1.226839,42.190053
+SYN-RE-0053,DEMO plant 53,hydro,13.904,En servei,operating,True,False,2.031361,42.377923
+SYN-RE-0054,DEMO plant 54,solar_pv,22.581,En servei,operating,True,False,1.814085,41.520151
+SYN-RE-0055,DEMO plant 55,solar_pv,46.569,En servei,operating,True,False,2.044609,41.602258
+SYN-RE-0056,DEMO plant 56,solar_pv,30.805,En servei,operating,True,False,0.852447,42.150432
+SYN-RE-0057,DEMO plant 57,solar_pv,2.241,En servei,operating,True,False,2.369338,42.042941
+SYN-RE-0058,DEMO plant 58,wind,44.52,En servei,operating,True,False,1.549174,41.5487
+SYN-RE-0059,DEMO plant 59,solar_pv,10.688,En servei,operating,True,False,1.546761,41.549188
+SYN-RE-0060,DEMO plant 60,solar_pv,48.799,Autoritzat,pipeline,True,False,1.125163,42.019324
+SYN-RE-0061,DEMO plant 61,solar_pv,11.326,En tramitació,pipeline,True,False,1.918335,42.089384
+SYN-RE-0062,DEMO plant 62,solar_pv,26.03,En servei,operating,True,False,1.91748,42.240535
+SYN-RE-0063,DEMO plant 63,solar_pv,46.841,Autoritzat,pipeline,True,False,1.979142,42.124122
+SYN-RE-0064,DEMO plant 64,solar_pv,48.871,Autoritzat,pipeline,True,False,2.324729,42.035504
+SYN-RE-0065,DEMO plant 65,wind,47.729,En servei,operating,True,False,2.089314,42.281598
+SYN-RE-0066,DEMO plant 66,solar_pv,,Autoritzat,pipeline,True,False,2.075416,42.299709
+SYN-RE-0067,DEMO plant 67,solar_pv,8.103,Autoritzat,pipeline,True,False,0.920786,41.496768
+SYN-RE-0068,DEMO plant 68,solar_pv,3.6350000000000002,En tramitació,pipeline,True,False,1.783149,41.343187
+SYN-RE-0069,DEMO plant 69,solar_pv,10.159,En tramitació,pipeline,True,False,0.95468,41.671978
+SYN-RE-0070,DEMO plant 70,solar_pv,28.644000000000002,En servei,operating,True,False,1.969203,42.166902
+SYN-RE-0071,DEMO plant 71,wind,24.471,En servei,operating,True,False,1.966005,42.026299
+SYN-RE-0072,DEMO plant 72,solar_pv,27.092000000000002,En servei,operating,True,False,1.916757,42.137203
+SYN-RE-0073,DEMO plant 73,wind,55.38,En servei,operating,True,False,1.485645,41.482298
+SYN-RE-0074,DEMO plant 74,hydro,11.635,En servei,operating,True,False,2.02567,41.704233
+SYN-RE-0075,DEMO plant 75,solar_pv,40.129,En tramitació,pipeline,True,False,1.915406,42.002778
+SYN-RE-0076,DEMO plant 76,solar_pv,31.081,En servei,operating,True,False,1.788324,41.57441
+SYN-RE-0077,DEMO plant 77,solar_pv,43.275,En servei,operating,False,False,,
+SYN-RE-0078,DEMO plant 78,wind,16.752,Autoritzat,pipeline,True,False,2.082983,42.00183
+SYN-RE-0079,DEMO plant 79,solar_pv,17.721,En servei,operating,True,False,1.143956,41.956914
+SYN-RE-0080,DEMO plant 80,wind,30.102,En servei,operating,True,False,1.270779,41.812189
+SYN-RE-0081,DEMO plant 81,wind,21.234,En tramitació,pipeline,True,False,1.918512,42.16433
+SYN-RE-0082,DEMO plant 82,wind,52.334,En servei,operating,True,False,2.330013,41.529339
+SYN-RE-0083,DEMO plant 83,solar_pv,47.312,En servei,operating,True,False,2.209044,41.729822
+SYN-RE-0084,DEMO plant 84,biomass,4.68,En servei,operating,True,False,2.020261,41.641281
+SYN-RE-0085,DEMO plant 85,solar_pv,38.653,En tramitació,pipeline,True,False,1.342181,41.425435
+SYN-RE-0086,DEMO plant 86,solar_pv,27.254,En servei,operating,True,False,1.644514,41.731921
+SYN-RE-0087,DEMO plant 87,solar_pv,9.549,En servei,operating,True,False,1.964136,41.941885
+SYN-RE-0088,DEMO plant 88,hydro,8.375,En servei,operating,True,False,1.756355,41.631197
+SYN-RE-0089,DEMO plant 89,solar_pv,32.833,En servei,operating,True,False,1.729608,41.752337
+SYN-RE-0090,DEMO plant 90,wind,52.550000000000004,En tramitació,pipeline,True,False,1.124219,42.164983
+SYN-RE-0091,DEMO plant 91,solar_pv,22.021,En servei,operating,True,False,1.987669,42.124088
+SYN-RE-0092,DEMO plant 92,biomass,3.854,En tramitació,pipeline,True,False,2.178083,42.028306
+SYN-RE-0093,DEMO plant 93,solar_pv,36.234,En servei,operating,True,False,2.146094,41.483999
+SYN-RE-0094,DEMO plant 94,solar_pv,8.859,En servei,operating,True,False,0.903323,41.486457
+SYN-RE-0095,DEMO plant 95,biomass,5.245,En tramitació,pipeline,True,False,0.878311,41.431251
+SYN-RE-0096,DEMO plant 96,solar_pv,9.801,En servei,operating,True,False,1.99613,41.793347
+SYN-RE-0097,DEMO plant 97,solar_pv,5.812,En servei,operating,True,False,1.971047,42.333724
+SYN-RE-0098,DEMO plant 98,solar_pv,25.134,En tramitació,pipeline,True,False,2.220321,41.756119
+SYN-RE-0099,DEMO plant 99,solar_pv,26.218,En servei,operating,True,False,1.485495,41.825271
+SYN-RE-0100,DEMO plant 100,solar_pv,25.656,En servei,operating,True,False,1.098248,42.010972
+SYN-RE-0101,DEMO plant 101,solar_pv,22.115000000000002,En tramitació,pipeline,True,False,2.134969,42.230196
+SYN-RE-0102,DEMO plant 102,solar_pv,49.743,En servei,operating,True,False,2.295107,41.760865
+SYN-RE-0103,DEMO plant 103,wind,53.834,En servei,operating,True,False,2.191676,42.055196
+SYN-RE-0104,DEMO plant 104,solar_pv,24.158,En servei,operating,True,False,1.780477,41.454251
+SYN-RE-0105,DEMO plant 105,solar_pv,21.377,En servei,operating,True,False,2.303013,41.667085
+SYN-RE-0106,DEMO plant 106,solar_pv,3.8080000000000003,En servei,operating,True,False,1.381452,41.733882
+SYN-RE-0107,DEMO plant 107,solar_pv,29.851,Autoritzat,pipeline,True,False,2.100425,41.337304
+SYN-RE-0108,DEMO plant 108,wind,24.393,En servei,operating,True,False,2.040895,42.122998
+SYN-RE-0109,DEMO plant 109,hydro,5.67,Autoritzat,pipeline,True,False,2.242719,41.656257
+SYN-RE-0110,DEMO plant 110,hydro,5.6290000000000004,En servei,operating,True,False,2.242658,41.633309
+SYN-RE-0111,DEMO plant 111,solar_pv,49.079,En servei,operating,True,False,0.838022,42.064004
+SYN-RE-0112,DEMO plant 112,solar_pv,23.716,En servei,operating,True,False,2.081691,41.774209
+SYN-RE-0113,DEMO plant 113,solar_pv,44.889,Autoritzat,pipeline,True,False,2.061673,42.287139
+SYN-RE-0114,DEMO plant 114,solar_pv,24.04,En servei,operating,True,False,1.979717,42.225279
+SYN-RE-0115,DEMO plant 115,solar_pv,3.486,En servei,operating,True,False,1.488592,41.434965
+SYN-RE-0116,DEMO plant 116,wind,55.658,En tramitació,pipeline,True,False,2.297752,42.080634
+SYN-RE-0117,DEMO plant 117,solar_pv,32.585,En servei,operating,True,False,2.084893,41.802261
+SYN-RE-0118,DEMO plant 118,solar_pv,39.197,En servei,operating,True,False,1.496869,41.531727
+SYN-RE-0119,DEMO plant 119,solar_pv,21.694,En tramitació,pipeline,True,False,2.033607,41.614493
+SYN-RE-0120,DEMO plant 120,solar_pv,32.078,En servei,operating,True,False,1.401419,41.804626
+SYN-RE-0121,DEMO plant 121,solar_pv,42.883,En servei,operating,True,False,1.888927,42.050692
+SYN-RE-0122,DEMO plant 122,solar_pv,31.738,En servei,operating,True,False,1.682113,41.526239
+SYN-RE-0123,DEMO plant 123,wind,58.031,En servei,operating,True,False,2.061214,41.991785
+SYN-RE-0124,DEMO plant 124,solar_pv,33.295,En servei,operating,True,False,2.000794,42.341881
+SYN-RE-0125,DEMO plant 125,solar_pv,33.757,Autoritzat,pipeline,True,False,1.417844,41.473624
+SYN-RE-0126,DEMO plant 126,solar_pv,48.049,En servei,operating,True,False,1.526643,41.506635
+SYN-RE-0127,DEMO plant 127,wind,27.603,Autoritzat,pipeline,True,False,1.857361,42.087444
+SYN-RE-0128,DEMO plant 128,solar_pv,21.542,En tramitació,pipeline,True,False,2.087164,41.809871
+SYN-RE-0129,DEMO plant 129,wind,33.697,Autoritzat,pipeline,True,False,1.078971,42.052137
+SYN-RE-0130,DEMO plant 130,hydro,7.226,Autoritzat,pipeline,True,False,1.47742,41.679267
+SYN-RE-0131,DEMO plant 131,solar_pv,36.96,Autoritzat,pipeline,True,False,2.085441,42.006008
+SYN-RE-0132,DEMO plant 132,wind,30.619,En tramitació,pipeline,True,False,1.395886,41.447906
+SYN-RE-0133,DEMO plant 133,solar_pv,11.167,En servei,operating,True,False,1.372629,42.099889
+SYN-RE-0134,DEMO plant 134,hydro,13.503,En servei,operating,True,False,1.648348,41.665584
+SYN-RE-0135,DEMO plant 135,solar_pv,6.992,En servei,operating,True,False,1.218738,41.728574
+SYN-RE-0136,DEMO plant 136,hydro,3.5,En servei,operating,True,False,0.790407,41.470381
+SYN-RE-0137,DEMO plant 137,solar_pv,31.528000000000002,En servei,operating,True,False,2.171364,41.680455
+SYN-RE-0138,DEMO plant 138,solar_pv,37.49,Autoritzat,pipeline,True,False,1.977117,42.432288
+SYN-RE-0139,DEMO plant 139,solar_pv,44.787,En servei,operating,True,False,2.219764,41.479862
+SYN-RE-0140,DEMO plant 140,wind,48.51,En tramitació,pipeline,False,False,,
+SYN-RE-0141,DEMO plant 141,solar_pv,5.981,En servei,operating,True,False,2.313814,42.014356
+SYN-RE-0142,DEMO plant 142,solar_pv,47.824,En servei,operating,True,False,1.549159,41.676202
+SYN-RE-0143,DEMO plant 143,wind,42.924,En servei,operating,True,False,1.791885,41.386916
+SYN-RE-0144,DEMO plant 144,wind,51.480000000000004,En servei,operating,True,False,1.894508,42.095706
+SYN-RE-0145,DEMO plant 145,solar_pv,14.921000000000001,En servei,operating,True,False,1.880608,42.064882
+SYN-RE-0146,DEMO plant 146,solar_pv,26.705000000000002,En servei,operating,True,False,2.138047,41.763607
+SYN-RE-0147,DEMO plant 147,solar_pv,44.2,En servei,operating,True,False,1.572071,41.609107
+SYN-RE-0148,DEMO plant 148,wind,38.176,En servei,operating,True,False,1.923859,42.062599
+SYN-RE-0149,DEMO plant 149,solar_pv,35.554,En servei,operating,True,False,1.691876,41.397747
+SYN-RE-0150,DEMO plant 150,wind,,En servei,operating,True,False,1.856241,42.077033
+SYN-RE-0151,DEMO plant 151,solar_pv,18.205000000000002,En servei,operating,True,False,2.057222,41.752826
+SYN-RE-0152,DEMO plant 152,solar_pv,24.181,En servei,operating,True,False,1.747219,41.448845
+SYN-RE-0153,DEMO plant 153,solar_pv,7.798,En servei,operating,True,False,1.92965,42.102341
+SYN-RE-0154,DEMO plant 154,solar_pv,14.035,En servei,operating,True,False,2.229477,41.521377
+SYN-RE-0155,DEMO plant 155,wind,57.257,En servei,operating,True,False,1.957547,42.057498
+SYN-RE-0156,DEMO plant 156,solar_pv,6.8,Autoritzat,pipeline,True,False,2.071027,42.347554
+SYN-RE-0157,DEMO plant 157,solar_pv,27.737000000000002,En tramitació,pipeline,True,False,1.429886,41.768147
+SYN-RE-0158,DEMO plant 158,biomass,12.347,En tramitació,pipeline,True,False,1.290966,41.805728
+SYN-RE-0159,DEMO plant 159,biomass,10.964,En servei,operating,True,False,2.094543,41.846858
+SYN-RE-0160,DEMO plant 160,wind,47.303000000000004,En servei,operating,True,False,1.952716,42.082627
+SYN-RE-0161,DEMO plant 161,solar_pv,39.219,En servei,operating,True,False,2.254134,41.572866
+SYN-RE-0162,DEMO plant 162,solar_pv,37.526,Autoritzat,pipeline,True,False,1.960666,42.179538
+SYN-RE-0163,DEMO plant 163,wind,36.565,Autoritzat,pipeline,True,False,1.776084,41.481032
+SYN-RE-0164,DEMO plant 164,solar_pv,22.688,Autoritzat,pipeline,True,False,2.074733,42.088728
+SYN-RE-0165,DEMO plant 165,solar_pv,41.118,En tramitació,pipeline,True,False,2.253233,41.941506
+SYN-RE-0166,DEMO plant 166,wind,21.537,En servei,operating,True,False,2.145047,42.31973
+SYN-RE-0167,DEMO plant 167,solar_pv,18.36,Autoritzat,pipeline,True,False,1.45868,41.467702
+SYN-RE-0168,DEMO plant 168,solar_pv,9.23,Autoritzat,pipeline,True,False,2.205637,41.957547
+SYN-RE-0169,DEMO plant 169,biomass,12.542,En servei,operating,True,False,1.322983,42.182005
+SYN-RE-0170,DEMO plant 170,wind,41.778,En tramitació,pipeline,True,False,2.148849,41.55647
+SYN-RE-0171,DEMO plant 171,solar_pv,12.426,En servei,operating,True,False,1.897789,42.226142
+SYN-RE-0172,DEMO plant 172,solar_pv,37.713,En tramitació,pipeline,True,False,1.670947,41.737243
+SYN-RE-0173,DEMO plant 173,solar_pv,16.035,Autoritzat,pipeline,True,False,1.020845,41.570002
+SYN-RE-0174,DEMO plant 174,solar_pv,14.004,En servei,operating,True,False,2.252694,41.98781
+SYN-RE-0175,DEMO plant 175,wind,42.022,Autoritzat,pipeline,True,False,0.933449,42.138375
+SYN-RE-0176,DEMO plant 176,wind,20.077,En servei,operating,True,False,2.079809,42.285629
+SYN-RE-0177,DEMO plant 177,solar_pv,15.497,Autoritzat,pipeline,True,False,2.401092,42.062936
+SYN-RE-0178,DEMO plant 178,solar_pv,18.779,Autoritzat,pipeline,True,False,2.331497,41.688928
+SYN-RE-0179,DEMO plant 179,wind,27.478,Autoritzat,pipeline,True,False,2.324646,41.531253
+SYN-RE-0180,DEMO plant 180,solar_pv,38.276,En tramitació,pipeline,True,False,1.333037,41.453821
+SYN-RE-0181,DEMO plant 181,solar_pv,46.535000000000004,En servei,operating,True,False,2.203665,41.535791
+SYN-RE-0182,DEMO plant 182,solar_pv,25.148,En servei,operating,True,False,2.164484,41.511343
+SYN-RE-0183,DEMO plant 183,wind,55.145,En servei,operating,True,False,1.963081,42.105857
+SYN-RE-0184,DEMO plant 184,solar_pv,43.425000000000004,En servei,operating,True,False,0.820972,42.118036
+SYN-RE-0185,DEMO plant 185,wind,26.608,En servei,operating,True,False,0.919825,41.450586
+SYN-RE-0186,DEMO plant 186,solar_pv,30.869,En servei,operating,True,False,2.007235,41.350996
+SYN-RE-0187,DEMO plant 187,wind,20.589000000000002,En servei,operating,True,False,1.458672,41.6367
+SYN-RE-0188,DEMO plant 188,solar_pv,45.476,En servei,operating,True,False,1.496703,41.504184
+SYN-RE-0189,DEMO plant 189,solar_pv,39.677,En tramitació,pipeline,True,False,1.978965,42.267328
+SYN-RE-0190,DEMO plant 190,solar_pv,23.316,En servei,operating,True,False,1.879383,41.251065
+SYN-RE-0191,DEMO plant 191,solar_pv,4.517,En tramitació,pipeline,True,False,1.980792,42.044837
+SYN-RE-0192,DEMO plant 192,solar_pv,1.282,En servei,operating,True,False,2.325596,41.6942
+SYN-RE-0193,DEMO plant 193,solar_pv,24.121000000000002,En servei,operating,True,False,2.201487,41.749068
+SYN-RE-0194,DEMO plant 194,solar_pv,24.969,En servei,operating,True,False,2.098033,42.168805
+SYN-RE-0195,DEMO plant 195,solar_pv,20.664,En servei,operating,True,False,2.31554,41.699444
+SYN-RE-0196,DEMO plant 196,hydro,14.572000000000001,En servei,operating,True,False,0.971594,41.531092
+SYN-RE-0197,DEMO plant 197,solar_pv,27.832,En servei,operating,True,False,1.681916,41.631754
+SYN-RE-0198,DEMO plant 198,wind,54.109,En servei,operating,True,False,1.973174,42.095103
+SYN-RE-0198,DEMO plant 199,biomass,3.447,En servei,operating,True,True,1.939531,41.360193

@@ -1,0 +1,63 @@
+{
+  "dataset": "grid_nodes",
+  "stage": "grid",
+  "mode": "demo",
+  "issues": [
+    {
+      "level": "info",
+      "check": "required_columns",
+      "message": "All required columns present",
+      "count": null,
+      "examples": []
+    },
+    {
+      "level": "info",
+      "check": "units",
+      "message": "generation_available_mw: converted from MW to canonical unit",
+      "count": null,
+      "examples": []
+    },
+    {
+      "level": "info",
+      "check": "units",
+      "message": "demand_available_mw: converted from MW to canonical unit",
+      "count": null,
+      "examples": []
+    },
+    {
+      "level": "warning",
+      "check": "duplicate_rows",
+      "message": "Exact duplicate rows will be dropped",
+      "count": 1,
+      "examples": [
+        "REE-SYN_T03"
+      ]
+    },
+    {
+      "level": "warning",
+      "check": "duplicate_names",
+      "message": "Several nodes share a name; names must not be used as identifiers",
+      "count": 2,
+      "examples": [
+        "DEMO CEDAR"
+      ]
+    },
+    {
+      "level": "warning",
+      "check": "negative_capacity",
+      "message": "demand_available_mw: negative values set to null",
+      "count": 1,
+      "examples": [
+        "EDIS-SYN_D113"
+      ]
+    }
+  ],
+  "metrics": {
+    "source_file": "grid_nodes_synthetic.csv",
+    "source_rows": 25,
+    "generation_available_mw_missing": 3,
+    "demand_available_mw_missing": 2,
+    "nodes_in_source": 25
+  },
+  "completeness": {}
+}

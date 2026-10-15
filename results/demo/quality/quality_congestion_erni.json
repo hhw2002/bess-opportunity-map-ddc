@@ -1,0 +1,40 @@
+{
+  "dataset": "congestion_erni",
+  "stage": "congestion",
+  "mode": "demo",
+  "issues": [
+    {
+      "level": "info",
+      "check": "required_columns",
+      "message": "All required columns present",
+      "count": null,
+      "examples": []
+    },
+    {
+      "level": "info",
+      "check": "units",
+      "message": "erni_mwh: converted from MWh to canonical unit",
+      "count": null,
+      "examples": []
+    },
+    {
+      "level": "warning",
+      "check": "missing_values",
+      "message": "ERNI values missing (kept null, not zero)",
+      "count": 6,
+      "examples": []
+    }
+  ],
+  "metrics": {
+    "source_file": "erni_monthly_synthetic.csv",
+    "source_rows": 240,
+    "records": 240,
+    "source_nodes": 14,
+    "observation_period": "2025-01 to 2026-06"
+  },
+  "completeness": {
+    "source_node_id": 1.0,
+    "source_node_name": 1.0,
+    "erni_mwh": 0.975
+  }
+}

@@ -1,0 +1,15 @@
+congestion_source_key,source_node_id,source_node_name,node_id,match_method,match_status,match_reliability,candidates
+ERNI-0001,ERNI-0001,SET DEMO ALDER 400,REE-SYN_T01,crosswalk,matched,high,
+ERNI-0002,ERNI-0002,SET DEMO BIRCH 400,REE-SYN_T02,crosswalk,matched,high,
+ERNI-0003,ERNI-0003,SET DEMO CEDAR 400,REE-SYN_T03,crosswalk,matched,high,
+ERNI-0004,ERNI-0004,SET DEMO DOGWOOD 400,REE-SYN_T04,crosswalk,matched,high,
+ERNI-0005,ERNI-0005,SET DEMO ELM 400,REE-SYN_T05,crosswalk,matched,high,
+ERNI-0006,ERNI-0006,SET DEMO FIR 400,REE-SYN_T06,crosswalk,matched,high,
+ERNI-0007,ERNI-0007,DEMO GINKGO,EDIS-SYN_D107,crosswalk,matched,high,
+ERNI-0008,ERNI-0008,DEMO LINDEN DISTRIBUCIO,,none,unmatched,none,
+ERNI-0101,ERNI-0101,SE DEMO HAZEL,EDIS-SYN_D108,name,matched,medium,
+ERNI-0102,ERNI-0102,demo juniper,EDIS-SYN_D110,name,matched,medium,
+ERNI-0103,ERNI-0103,DEMO MÀPLE,EDIS-SYN_D112,name,matched,medium,
+ERNI-0201,ERNI-0201,DEMO CEDAR,,name,ambiguous,none,EDIS-SYN_D109;REE-SYN_T03
+ERNI-0301,ERNI-0301,DEMO NOWHERE,,none,unmatched,none,
+SYN-D113,SYN-D113,DEMO OAK (EDIS),EDIS-SYN_D113,source_id,matched,high,

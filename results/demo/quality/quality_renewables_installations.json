@@ -1,0 +1,73 @@
+{
+  "dataset": "renewables_installations",
+  "stage": "renewables",
+  "mode": "demo",
+  "issues": [
+    {
+      "level": "info",
+      "check": "required_columns",
+      "message": "All required columns present",
+      "count": null,
+      "examples": []
+    },
+    {
+      "level": "info",
+      "check": "units",
+      "message": "capacity_mw: converted from kW to canonical unit",
+      "count": null,
+      "examples": []
+    },
+    {
+      "level": "warning",
+      "check": "coordinates",
+      "message": "Installations with missing/out-of-region coordinates (kept, flagged, excluded from aggregation)",
+      "count": 3,
+      "examples": [
+        "SYN-RE-0005",
+        "SYN-RE-0077",
+        "SYN-RE-0140"
+      ]
+    },
+    {
+      "level": "warning",
+      "check": "duplicate_source_id",
+      "message": "Duplicate installation ids (first kept for aggregation)",
+      "count": 2,
+      "examples": [
+        "SYN-RE-0198"
+      ]
+    },
+    {
+      "level": "warning",
+      "check": "status_map",
+      "message": "Statuses not in options.status_map -> 'unknown'",
+      "count": 2,
+      "examples": [
+        "Desconegut"
+      ]
+    },
+    {
+      "level": "warning",
+      "check": "missing_values",
+      "message": "Installations without capacity (kept null)",
+      "count": 4,
+      "examples": []
+    }
+  ],
+  "metrics": {
+    "source_file": "installations_synthetic.csv",
+    "source_rows": 200,
+    "installations": 200,
+    "operating_mw": 3561.84,
+    "pipeline_mw": 1888.86
+  },
+  "completeness": {
+    "source_installation_id": 1.0,
+    "installation_name": 1.0,
+    "technology": 1.0,
+    "capacity_mw": 0.98,
+    "status": 1.0,
+    "x": 1.0,
+    "y": 1.0
+  }
+}
