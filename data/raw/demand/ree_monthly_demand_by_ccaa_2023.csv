@@ -1,0 +1,241 @@
+geo_id,region,month,demand_mwh,region_label_basis
+,España (national),2023-01,22134026.291,documented/verified
+,España (national),2023-02,20560235.18,documented/verified
+,España (national),2023-03,20639711.232,documented/verified
+,España (national),2023-04,18316734.3,documented/verified
+,España (national),2023-05,19243367.373,documented/verified
+,España (national),2023-06,19973380.276,documented/verified
+,España (national),2023-07,22799599.054,documented/verified
+,España (national),2023-08,21829565.953,documented/verified
+,España (national),2023-09,19762754.89,documented/verified
+,España (national),2023-10,19990082.144,documented/verified
+,España (national),2023-11,20113191.795,documented/verified
+,España (national),2023-12,21302390.025,documented/verified
+8741,Península,2023-01,20919134.697,documented/verified
+8741,Península,2023-02,19437436.811,documented/verified
+8741,Península,2023-03,19469540.276,documented/verified
+8741,Península,2023-04,17196552.842,documented/verified
+8741,Península,2023-05,18038571.279,documented/verified
+8741,Península,2023-06,18668213.629,documented/verified
+8741,Península,2023-07,21247824.911,documented/verified
+8741,Península,2023-08,20271704.27,documented/verified
+8741,Península,2023-09,18408553.216,documented/verified
+8741,Península,2023-10,18646680.865,documented/verified
+8741,Península,2023-11,18966231.258,documented/verified
+8741,Península,2023-12,20106563.482,documented/verified
+4,Andalucía,2023-01,3437695.857,inferred from annual magnitude (not confirmed in REE docs)
+4,Andalucía,2023-02,3132852.748,inferred from annual magnitude (not confirmed in REE docs)
+4,Andalucía,2023-03,3082018.154,inferred from annual magnitude (not confirmed in REE docs)
+4,Andalucía,2023-04,2828200.389,inferred from annual magnitude (not confirmed in REE docs)
+4,Andalucía,2023-05,2932154.583,inferred from annual magnitude (not confirmed in REE docs)
+4,Andalucía,2023-06,3135808.099,inferred from annual magnitude (not confirmed in REE docs)
+4,Andalucía,2023-07,3809548.371,inferred from annual magnitude (not confirmed in REE docs)
+4,Andalucía,2023-08,3829607.216,inferred from annual magnitude (not confirmed in REE docs)
+4,Andalucía,2023-09,3037759.312,inferred from annual magnitude (not confirmed in REE docs)
+4,Andalucía,2023-10,3035876.346,inferred from annual magnitude (not confirmed in REE docs)
+4,Andalucía,2023-11,3010403.742,inferred from annual magnitude (not confirmed in REE docs)
+4,Andalucía,2023-12,3448305.048,inferred from annual magnitude (not confirmed in REE docs)
+5,Aragón,2023-01,882655.8,documented/verified
+5,Aragón,2023-02,826132.845,documented/verified
+5,Aragón,2023-03,848021.203,documented/verified
+5,Aragón,2023-04,762540.249,documented/verified
+5,Aragón,2023-05,814899.623,documented/verified
+5,Aragón,2023-06,804141.269,documented/verified
+5,Aragón,2023-07,839531.511,documented/verified
+5,Aragón,2023-08,798523.711,documented/verified
+5,Aragón,2023-09,770023.757,documented/verified
+5,Aragón,2023-10,770432.698,documented/verified
+5,Aragón,2023-11,791497.704,documented/verified
+5,Aragón,2023-12,793232.749,documented/verified
+6,Cantabria,2023-01,301243.293,inferred from annual magnitude (not confirmed in REE docs)
+6,Cantabria,2023-02,291592.198,inferred from annual magnitude (not confirmed in REE docs)
+6,Cantabria,2023-03,314694.438,inferred from annual magnitude (not confirmed in REE docs)
+6,Cantabria,2023-04,294722.103,inferred from annual magnitude (not confirmed in REE docs)
+6,Cantabria,2023-05,288608.396,inferred from annual magnitude (not confirmed in REE docs)
+6,Cantabria,2023-06,276359.322,inferred from annual magnitude (not confirmed in REE docs)
+6,Cantabria,2023-07,278417.851,inferred from annual magnitude (not confirmed in REE docs)
+6,Cantabria,2023-08,282224.585,inferred from annual magnitude (not confirmed in REE docs)
+6,Cantabria,2023-09,287677.728,inferred from annual magnitude (not confirmed in REE docs)
+6,Cantabria,2023-10,297031.463,inferred from annual magnitude (not confirmed in REE docs)
+6,Cantabria,2023-11,304109.871,inferred from annual magnitude (not confirmed in REE docs)
+6,Cantabria,2023-12,277782.084,inferred from annual magnitude (not confirmed in REE docs)
+7,Castilla-La Mancha,2023-01,1034590.969,documented/verified
+7,Castilla-La Mancha,2023-02,967155.255,documented/verified
+7,Castilla-La Mancha,2023-03,987929.973,documented/verified
+7,Castilla-La Mancha,2023-04,924710.345,documented/verified
+7,Castilla-La Mancha,2023-05,931243.59,documented/verified
+7,Castilla-La Mancha,2023-06,888864.1,documented/verified
+7,Castilla-La Mancha,2023-07,1084542.101,documented/verified
+7,Castilla-La Mancha,2023-08,1079901.527,documented/verified
+7,Castilla-La Mancha,2023-09,888525.063,documented/verified
+7,Castilla-La Mancha,2023-10,893453.968,documented/verified
+7,Castilla-La Mancha,2023-11,948848.243,documented/verified
+7,Castilla-La Mancha,2023-12,1053507.676,documented/verified
+8,Castilla y León,2023-01,1196107.418,inferred from annual magnitude (not confirmed in REE docs)
+8,Castilla y León,2023-02,1104795.456,inferred from annual magnitude (not confirmed in REE docs)
+8,Castilla y León,2023-03,1133003.391,inferred from annual magnitude (not confirmed in REE docs)
+8,Castilla y León,2023-04,1008109.336,inferred from annual magnitude (not confirmed in REE docs)
+8,Castilla y León,2023-05,1045956.728,inferred from annual magnitude (not confirmed in REE docs)
+8,Castilla y León,2023-06,1017829.697,inferred from annual magnitude (not confirmed in REE docs)
+8,Castilla y León,2023-07,1123542.368,inferred from annual magnitude (not confirmed in REE docs)
+8,Castilla y León,2023-08,1093507.49,inferred from annual magnitude (not confirmed in REE docs)
+8,Castilla y León,2023-09,1011210.359,inferred from annual magnitude (not confirmed in REE docs)
+8,Castilla y León,2023-10,1067620.993,inferred from annual magnitude (not confirmed in REE docs)
+8,Castilla y León,2023-11,1131745.675,inferred from annual magnitude (not confirmed in REE docs)
+8,Castilla y León,2023-12,1162030.378,inferred from annual magnitude (not confirmed in REE docs)
+9,Cataluña,2023-01,4015718.606,documented/verified
+9,Cataluña,2023-02,3695417.406,documented/verified
+9,Cataluña,2023-03,3701945.975,documented/verified
+9,Cataluña,2023-04,3263401.562,documented/verified
+9,Cataluña,2023-05,3463493.03,documented/verified
+9,Cataluña,2023-06,3675454.365,documented/verified
+9,Cataluña,2023-07,4187142.2,documented/verified
+9,Cataluña,2023-08,3844046.868,documented/verified
+9,Cataluña,2023-09,3644818.069,documented/verified
+9,Cataluña,2023-10,3630919.39,documented/verified
+9,Cataluña,2023-11,3579114.958,documented/verified
+9,Cataluña,2023-12,3708349.576,documented/verified
+10,País Vasco,2023-01,1367349.918,inferred from annual magnitude (not confirmed in REE docs)
+10,País Vasco,2023-02,1303798.423,inferred from annual magnitude (not confirmed in REE docs)
+10,País Vasco,2023-03,1383845.934,inferred from annual magnitude (not confirmed in REE docs)
+10,País Vasco,2023-04,1168383.179,inferred from annual magnitude (not confirmed in REE docs)
+10,País Vasco,2023-05,1294130.525,inferred from annual magnitude (not confirmed in REE docs)
+10,País Vasco,2023-06,1273387.773,inferred from annual magnitude (not confirmed in REE docs)
+10,País Vasco,2023-07,1176851.741,inferred from annual magnitude (not confirmed in REE docs)
+10,País Vasco,2023-08,970288.206,inferred from annual magnitude (not confirmed in REE docs)
+10,País Vasco,2023-09,1233503.386,inferred from annual magnitude (not confirmed in REE docs)
+10,País Vasco,2023-10,1281926.377,inferred from annual magnitude (not confirmed in REE docs)
+10,País Vasco,2023-11,1317995.286,inferred from annual magnitude (not confirmed in REE docs)
+10,País Vasco,2023-12,1206553.784,inferred from annual magnitude (not confirmed in REE docs)
+11,Asturias,2023-01,739652.692,inferred from annual magnitude (not confirmed in REE docs)
+11,Asturias,2023-02,701588.687,inferred from annual magnitude (not confirmed in REE docs)
+11,Asturias,2023-03,727974.478,inferred from annual magnitude (not confirmed in REE docs)
+11,Asturias,2023-04,653384.155,inferred from annual magnitude (not confirmed in REE docs)
+11,Asturias,2023-05,684536.05,inferred from annual magnitude (not confirmed in REE docs)
+11,Asturias,2023-06,663827.721,inferred from annual magnitude (not confirmed in REE docs)
+11,Asturias,2023-07,688042.264,inferred from annual magnitude (not confirmed in REE docs)
+11,Asturias,2023-08,665549.015,inferred from annual magnitude (not confirmed in REE docs)
+11,Asturias,2023-09,667631.257,inferred from annual magnitude (not confirmed in REE docs)
+11,Asturias,2023-10,696439.723,inferred from annual magnitude (not confirmed in REE docs)
+11,Asturias,2023-11,702524.031,inferred from annual magnitude (not confirmed in REE docs)
+11,Asturias,2023-12,739970.349,inferred from annual magnitude (not confirmed in REE docs)
+12,Ceuta,2023-01,16642.232,inferred from annual magnitude (not confirmed in REE docs)
+12,Ceuta,2023-02,15700.243,inferred from annual magnitude (not confirmed in REE docs)
+12,Ceuta,2023-03,15386.335,inferred from annual magnitude (not confirmed in REE docs)
+12,Ceuta,2023-04,13780.955,inferred from annual magnitude (not confirmed in REE docs)
+12,Ceuta,2023-05,14172.513,inferred from annual magnitude (not confirmed in REE docs)
+12,Ceuta,2023-06,14999.305,inferred from annual magnitude (not confirmed in REE docs)
+12,Ceuta,2023-07,17026.712,inferred from annual magnitude (not confirmed in REE docs)
+12,Ceuta,2023-08,17061.02,inferred from annual magnitude (not confirmed in REE docs)
+12,Ceuta,2023-09,15704.777,inferred from annual magnitude (not confirmed in REE docs)
+12,Ceuta,2023-10,15672.695,inferred from annual magnitude (not confirmed in REE docs)
+12,Ceuta,2023-11,14659.133,inferred from annual magnitude (not confirmed in REE docs)
+12,Ceuta,2023-12,15423.964,inferred from annual magnitude (not confirmed in REE docs)
+13,Madrid,2023-01,2601245.884,inferred from annual magnitude (not confirmed in REE docs)
+13,Madrid,2023-02,2345489.574,inferred from annual magnitude (not confirmed in REE docs)
+13,Madrid,2023-03,2283260.599,inferred from annual magnitude (not confirmed in REE docs)
+13,Madrid,2023-04,1914314.753,inferred from annual magnitude (not confirmed in REE docs)
+13,Madrid,2023-05,2016151.964,inferred from annual magnitude (not confirmed in REE docs)
+13,Madrid,2023-06,2170690.846,inferred from annual magnitude (not confirmed in REE docs)
+13,Madrid,2023-07,2489221.382,inferred from annual magnitude (not confirmed in REE docs)
+13,Madrid,2023-08,2346607.776,inferred from annual magnitude (not confirmed in REE docs)
+13,Madrid,2023-09,2054062.569,inferred from annual magnitude (not confirmed in REE docs)
+13,Madrid,2023-10,2166983.646,inferred from annual magnitude (not confirmed in REE docs)
+13,Madrid,2023-11,2335847.228,inferred from annual magnitude (not confirmed in REE docs)
+13,Madrid,2023-12,2561245.475,inferred from annual magnitude (not confirmed in REE docs)
+14,Navarra,2023-01,424159.614,inferred from annual magnitude (not confirmed in REE docs)
+14,Navarra,2023-02,388061.589,inferred from annual magnitude (not confirmed in REE docs)
+14,Navarra,2023-03,410327.157,inferred from annual magnitude (not confirmed in REE docs)
+14,Navarra,2023-04,354423.24,inferred from annual magnitude (not confirmed in REE docs)
+14,Navarra,2023-05,392522.051,inferred from annual magnitude (not confirmed in REE docs)
+14,Navarra,2023-06,391934.84,inferred from annual magnitude (not confirmed in REE docs)
+14,Navarra,2023-07,369307.064,inferred from annual magnitude (not confirmed in REE docs)
+14,Navarra,2023-08,359630.435,inferred from annual magnitude (not confirmed in REE docs)
+14,Navarra,2023-09,393061.308,inferred from annual magnitude (not confirmed in REE docs)
+14,Navarra,2023-10,402502.172,inferred from annual magnitude (not confirmed in REE docs)
+14,Navarra,2023-11,402122.111,inferred from annual magnitude (not confirmed in REE docs)
+14,Navarra,2023-12,380614.81,inferred from annual magnitude (not confirmed in REE docs)
+15,C. Valenciana,2023-01,2336043.48,inferred from annual magnitude (not confirmed in REE docs)
+15,C. Valenciana,2023-02,2284268.849,inferred from annual magnitude (not confirmed in REE docs)
+15,C. Valenciana,2023-03,2154056.5,inferred from annual magnitude (not confirmed in REE docs)
+15,C. Valenciana,2023-04,1882108.272,inferred from annual magnitude (not confirmed in REE docs)
+15,C. Valenciana,2023-05,2007428.839,inferred from annual magnitude (not confirmed in REE docs)
+15,C. Valenciana,2023-06,2162308.952,inferred from annual magnitude (not confirmed in REE docs)
+15,C. Valenciana,2023-07,2715816.858,inferred from annual magnitude (not confirmed in REE docs)
+15,C. Valenciana,2023-08,2496652.676,inferred from annual magnitude (not confirmed in REE docs)
+15,C. Valenciana,2023-09,2158226.265,inferred from annual magnitude (not confirmed in REE docs)
+15,C. Valenciana,2023-10,2077676.694,inferred from annual magnitude (not confirmed in REE docs)
+15,C. Valenciana,2023-11,2069058.568,inferred from annual magnitude (not confirmed in REE docs)
+15,C. Valenciana,2023-12,2219201.099,inferred from annual magnitude (not confirmed in REE docs)
+16,Extremadura,2023-01,446121.019,inferred from annual magnitude (not confirmed in REE docs)
+16,Extremadura,2023-02,407722.134,inferred from annual magnitude (not confirmed in REE docs)
+16,Extremadura,2023-03,402236.577,inferred from annual magnitude (not confirmed in REE docs)
+16,Extremadura,2023-04,344368.885,inferred from annual magnitude (not confirmed in REE docs)
+16,Extremadura,2023-05,344277.173,inferred from annual magnitude (not confirmed in REE docs)
+16,Extremadura,2023-06,384130.747,inferred from annual magnitude (not confirmed in REE docs)
+16,Extremadura,2023-07,418466.629,inferred from annual magnitude (not confirmed in REE docs)
+16,Extremadura,2023-08,488291.127,inferred from annual magnitude (not confirmed in REE docs)
+16,Extremadura,2023-09,373873.944,inferred from annual magnitude (not confirmed in REE docs)
+16,Extremadura,2023-10,379559.839,inferred from annual magnitude (not confirmed in REE docs)
+16,Extremadura,2023-11,391775.014,inferred from annual magnitude (not confirmed in REE docs)
+16,Extremadura,2023-12,433666.648,inferred from annual magnitude (not confirmed in REE docs)
+17,Galicia,2023-01,1242362.771,inferred from annual magnitude (not confirmed in REE docs)
+17,Galicia,2023-02,1134335.878,inferred from annual magnitude (not confirmed in REE docs)
+17,Galicia,2023-03,1175476.599,inferred from annual magnitude (not confirmed in REE docs)
+17,Galicia,2023-04,1030334.959,inferred from annual magnitude (not confirmed in REE docs)
+17,Galicia,2023-05,1047709.216,inferred from annual magnitude (not confirmed in REE docs)
+17,Galicia,2023-06,1025662.86,inferred from annual magnitude (not confirmed in REE docs)
+17,Galicia,2023-07,1010884.462,inferred from annual magnitude (not confirmed in REE docs)
+17,Galicia,2023-08,1013249.397,inferred from annual magnitude (not confirmed in REE docs)
+17,Galicia,2023-09,1027352.866,inferred from annual magnitude (not confirmed in REE docs)
+17,Galicia,2023-10,1090071.41,inferred from annual magnitude (not confirmed in REE docs)
+17,Galicia,2023-11,1154786.131,inferred from annual magnitude (not confirmed in REE docs)
+17,Galicia,2023-12,1233687.47,inferred from annual magnitude (not confirmed in REE docs)
+18,Illes Balears,2023-01,454063.527,inferred from annual magnitude (not confirmed in REE docs)
+18,Illes Balears,2023-02,434691.315,inferred from annual magnitude (not confirmed in REE docs)
+18,Illes Balears,2023-03,417350.932,inferred from annual magnitude (not confirmed in REE docs)
+18,Illes Balears,2023-04,408250.74,inferred from annual magnitude (not confirmed in REE docs)
+18,Illes Balears,2023-05,464401.248,inferred from annual magnitude (not confirmed in REE docs)
+18,Illes Balears,2023-06,551291.706,inferred from annual magnitude (not confirmed in REE docs)
+18,Illes Balears,2023-07,741661.113,inferred from annual magnitude (not confirmed in REE docs)
+18,Illes Balears,2023-08,708025.598,inferred from annual magnitude (not confirmed in REE docs)
+18,Illes Balears,2023-09,569284.085,inferred from annual magnitude (not confirmed in REE docs)
+18,Illes Balears,2023-10,498771.278,inferred from annual magnitude (not confirmed in REE docs)
+18,Illes Balears,2023-11,378315.787,inferred from annual magnitude (not confirmed in REE docs)
+18,Illes Balears,2023-12,422437.247,inferred from annual magnitude (not confirmed in REE docs)
+19,Canarias,2023-01,727932.389,inferred from annual magnitude (not confirmed in REE docs)
+19,Canarias,2023-02,657517.208,inferred from annual magnitude (not confirmed in REE docs)
+19,Canarias,2023-03,722273.126,inferred from annual magnitude (not confirmed in REE docs)
+19,Canarias,2023-04,683690.37,inferred from annual magnitude (not confirmed in REE docs)
+19,Canarias,2023-05,710756.172,inferred from annual magnitude (not confirmed in REE docs)
+19,Canarias,2023-06,722263.495,inferred from annual magnitude (not confirmed in REE docs)
+19,Canarias,2023-07,771187.237,inferred from annual magnitude (not confirmed in REE docs)
+19,Canarias,2023-08,811030.342,inferred from annual magnitude (not confirmed in REE docs)
+19,Canarias,2023-09,752095.896,inferred from annual magnitude (not confirmed in REE docs)
+19,Canarias,2023-10,812214.906,inferred from annual magnitude (not confirmed in REE docs)
+19,Canarias,2023-11,739589.214,inferred from annual magnitude (not confirmed in REE docs)
+19,Canarias,2023-12,741912.501,inferred from annual magnitude (not confirmed in REE docs)
+20,La Rioja,2023-01,141097.651,inferred from annual magnitude (not confirmed in REE docs)
+20,La Rioja,2023-02,129771.798,inferred from annual magnitude (not confirmed in REE docs)
+20,La Rioja,2023-03,131390.972,inferred from annual magnitude (not confirmed in REE docs)
+20,La Rioja,2023-04,112850.9,inferred from annual magnitude (not confirmed in REE docs)
+20,La Rioja,2023-05,120463.807,inferred from annual magnitude (not confirmed in REE docs)
+20,La Rioja,2023-06,119180.486,inferred from annual magnitude (not confirmed in REE docs)
+20,La Rioja,2023-07,128777.306,inferred from annual magnitude (not confirmed in REE docs)
+20,La Rioja,2023-08,128290.635,inferred from annual magnitude (not confirmed in REE docs)
+20,La Rioja,2023-09,126294.095,inferred from annual magnitude (not confirmed in REE docs)
+20,La Rioja,2023-10,130721.705,inferred from annual magnitude (not confirmed in REE docs)
+20,La Rioja,2023-11,131276.096,inferred from annual magnitude (not confirmed in REE docs)
+20,La Rioja,2023-12,131659.761,inferred from annual magnitude (not confirmed in REE docs)
+21,Murcia,2023-01,747250.007,inferred from annual magnitude (not confirmed in REE docs)
+21,Murcia,2023-02,724447.887,inferred from annual magnitude (not confirmed in REE docs)
+21,Murcia,2023-03,733350.318,inferred from annual magnitude (not confirmed in REE docs)
+21,Murcia,2023-04,654692.147,inferred from annual magnitude (not confirmed in REE docs)
+21,Murcia,2023-05,654986.805,inferred from annual magnitude (not confirmed in REE docs)
+21,Murcia,2023-06,678623.675,inferred from annual magnitude (not confirmed in REE docs)
+21,Murcia,2023-07,927723.097,inferred from annual magnitude (not confirmed in REE docs)
+21,Murcia,2023-08,875323.124,inferred from annual magnitude (not confirmed in REE docs)
+21,Murcia,2023-09,734525.243,inferred from annual magnitude (not confirmed in REE docs)
+21,Murcia,2023-10,725457.334,inferred from annual magnitude (not confirmed in REE docs)
+21,Murcia,2023-11,695949.838,inferred from annual magnitude (not confirmed in REE docs)
+21,Murcia,2023-12,756729.998,inferred from annual magnitude (not confirmed in REE docs)
